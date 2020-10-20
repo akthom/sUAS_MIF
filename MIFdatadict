@@ -1,0 +1,37 @@
+**Data dictionary**
+Attriute ID: Unique identifier for each attribute
+
+MIF Class: name of primary category/class each attribute belongs to. See UML diagram for relationships between classes
+
+Subclass: specific types of data within a broader class
+
+Attribute:  The specific characteristic being captured in a given field/term
+
+Attribute definitions: explanation of each attribute + use instructions
+
+Discovery: Is this metadata important for data discovery / to facilitate search discovery	
+
+Discovery Level of Importance: quantitative score of importance of this metadata for discovery. 1-5 
+1 == not useful
+2 == may be useful but non essential
+3 == useful but non essential
+4 == useful and may be essential
+5 == essential	
+
+Fit For Use:  Is this metadata important for determining if data is worth downloading.	
+
+Fit For Use Level of Importance: quantitative score of importance of this metadata for discovery. 1-5 
+1 == not useful
+2 == may be useful but non essential
+3 == useful but non essential
+4 == useful and may be essential
+5 == essential
+
+Reuse: Is this metadata important for determining if data is sufficiently appropriate for use in a given usecase.	
+
+Reuse Level of Importance: quantitative score of importance of this metadata for discovery. 1-5 
+1 == not useful
+2 == may be useful but non essential
+3 == useful but non essential
+4 == useful and may be essential
+5 == essential"
