@@ -10,8 +10,7 @@ The MIF was drafted through examination of 3 case studies of data collection wit
 **This project was funded as an ESIP Lab** and we thank ESIP for their support.
 
 ------
-
-Please cite as: Thomer, Andrea K., Swanz, Sarah, Barbieri, Lindsay, Wyngaard, Jane. (2020). A minimum information framework the FAIR collection of earth and environmental science data with drones. DOI: 10.5281/zenodo.4017647
-------
+**Please cite as: Thomer, Andrea K., Swanz, Sarah, Barbieri, Lindsay, Wyngaard, Jane. (2020). A minimum information framework the FAIR collection of earth and environmental science data with drones. DOI: 10.5281/zenodo.4017647
+------**
 
 
