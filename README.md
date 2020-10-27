@@ -11,8 +11,7 @@ The MIF was drafted through examination of 3 case studies of data collection wit
 
 ------
 
-Please cite as: Thomer, Andrea K., Swanz, Sarah, Barbieri, Lindsay, Wyngaard, Jane. (2020). Minimum Information Framework for data collected by small unmanned aerial systems (sUAS). 
-
+Please cite as: Thomer, Andrea K., Swanz, Sarah, Barbieri, Lindsay, Wyngaard, Jane. (2020). A minimum information framework the FAIR collection of earth and environmental science data with drones. DOI: 10.5281/zenodo.4017647
 ------
 
 
