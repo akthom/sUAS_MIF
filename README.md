@@ -1,7 +1,7 @@
 # sUAS_MIF
 This repository contains a minimum information framework (MIF) for data collected by small unmanned aerial systems (AKA sUAS AKA RPAs AKA drones).  A MIF is essentially a framework for the development for further data standards; it ennumerates the metadata needed for the collection of FAIR (Findable Accessible Interoperable and Reusable) scientific data with drones/sUAS/RPAs. The sUAS MIF includes:
 
-1) An entity-relationship model illustrating key data classes and their relationships (file coming soon)
+1) An entity-relationship model illustrating key data classes and their relationships (PDF)
 2) _sUASMIF.csv_: A csv listing the attributes and their definitions for each class. This is the main file for the MIF
 3) _datadict.txt_: a data dictionary defining each column the the main MIF csv 
 
