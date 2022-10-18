@@ -1,5 +1,5 @@
 Attribute ID,"MIF Class
-",Subclass: specific types of data within a broader class,Attribute:  The specific characteristic being captured in a given field/term,Attribute definitions,Discovery: Is this metadata important for data discovery / to facilitate search discovery,"Discovery Level of Importance: quantitative score of importance of this metadata for discovery. 1-5 
+",Subclass: specific types of data within a broader class,Attribute:  The specific characteristic being captured in a given field/term,Attribute definitions,Required?,Discovery: Is this metadata important for data discovery / to facilitate search discovery,"Discovery Level of Importance: quantitative score of importance of this metadata for discovery. 1-5 
 1 == not useful
 2 == may be useful but non essential
 3 == useful but non essential
@@ -15,78 +15,78 @@ Attribute ID,"MIF Class
 3 == useful but non essential
 4 == useful and may be essential
 5 == essential"
-1,Project,n/a,Investigators,name of primary investigator,Yes,2,Yes,2,No,1
-2,Project,n/a,Sponsering organization,"name and description of organization sponsering the flight(s) (e.g. granting agency name, grant number)",Yes,2,Yes,2,No,1
-3,Project,n/a,Project name,name of research project,Yes,3,Yes,2,No,1
-4,Project,n/a,Dates,date range of the overall research project (not individual flights),Yes,3,Yes,3,Yes,4
-5,Project,n/a,Research question(s),description of research question and project goals,Yes,3,Yes,3,Yes,4
-6,Project,n/a,Feature of interest,"description of environmental or atmospheric features being observed to answer the research question (e.g., agricultural land, clouds)",Yes,4,Yes,4,Yes,3
-7,Project,n/a,Use restrictions,"description of who owns the data collected, and under what terms it can be used",No,1,Yes,4,Yes,4
-8,Project,n/a,Access restrictions,description of any restrictions and legal prerequisites for accessing the data (e.g. privacy or IP restrictions) ,Yes,2,Yes,5,Yes,5
-9,Individual Flight,Flight Checks & Calibrations,Drone operator identification,name / license number of the person operating the drone,No,1,Yes,2,Yes,2
-10,Individual Flight,Flight Checks & Calibrations,Flight regulatory information,description of relevant flight regulatory information (e.g. flight path restrictions),No,1,Yes,2,Yes,2
-11,Individual Flight,Flight Checks & Calibrations,Flight safety procedures,record of pre-flight safety check done before a flight  ,No,1,No,1,No,1
-12,Individual Flight,Flight Checks & Calibrations,Flight date and time,date and time of day of drone flight,Yes,4,Yes,4,Yes,5
-13,Individual Flight,Flight Checks & Calibrations,Weather,"description of weather conditions at time of flight (e.g. wind speed, air temperature, cloud cover)",No,1,Yes,3,Yes,4
-14,Individual Flight,Flight Checks & Calibrations,Sensor calibration procedure,description of sensor calibration procedure(s),No,1,Yes,4,Yes,5
-15,Individual Flight,Flight Checks & Calibrations,Sensor calibration date,most recent date of sensor calibration,No,1,Yes,4,Yes,4
-16,Individual Flight,Flight Checks & Calibrations,Ground truth sampling data,"description and date of collection for any data used as a ground truth or calibration point data for analysis (e.g. spectral calibration, biomass samples, wind speed from a grounded source)",No,1,Yes,4,Yes,4
-17,Individual Flight,Flight Checks & Calibrations,Ground truth control points,"description of ground control points for data accuracy, including coordinates and geospatial coordinates reference system if relevant",No,1,Yes,4,Yes,4
-18,Individual Flight,Mission Plan,Mission planning software,name of mission planning software and version number (e.g. ArduPilot Mission Planner v. 1.0) ,No,1,No,1,Yes,3
-19,Individual Flight,Mission Plan,Planned flight path,a log or data file of the planned flight of a drone,No,1,Yes,2,Yes,2
-20,Individual Flight,Mission Plan,Flight pattern type ,"description of flight pattern being flown (e.g. vertical column, horizontal grid, z-formation)",Yes,3,Yes,3,Yes,3
-21,Individual Flight,Mission Plan,Set image overlap percentage,"the set percentage and/or type of overlap of images, both forward lap and side lap dimensions",No,1,Yes,3,Yes,3
-22,Individual Flight,Mission Plan,Geographic extent,size of area covered,Yes,4,Yes,3,Yes,3
-23,Individual Flight,Mission Plan,Geographic range,"the bounded geographic range of a flight (lat, long, alt)",Yes,5,Yes,5,Yes,5
-24,Individual Flight,Mission Plan,Sensing target,name of the parameter(s) being sampled for given flight,Yes,4,Yes,3,Yes,3
-25,Individual Flight,Mission Plan,Sensor trigger rate,"the rate at which sensors are triggered to capture data during a given flight, including if triggered by a time, GPS, or other controller command",No,1,Yes,3,Yes,4
-26,Individual Flight,Platform & Payload,Drone identification,drone registration number or tail number,No,1,No,1,No,1
-27,Individual Flight,Platform & Payload,Drone type,"type of drone (e.g. fixed wing, quadcopter, hexcopter)",Yes,2,Yes,4,Yes,4
-28,Individual Flight,Platform & Payload,Drone make and model,name of drone manufacturer and specific model name and number (e.g. DJI Phantom 4 Advanced),Yes,2,Yes,3,Yes,4
-29,Individual Flight,Platform & Payload,Modifications to hardware,description of any changes or customizations made to drone hardware (e.g.. sensor mounts),No,1,Yes,3,Yes,4
-30,Individual Flight,Platform & Payload,Autopilot make and model,"name of autopilot and/or other onboard CPU manufacturer, model name and version number",No,1,No,1,Yes,2
-31,Individual Flight,Platform & Payload,Flight autopilot firmware and version,"name of autopilot manufacturer and version number (e.g., PX4, ArduPilot)",No,1,Yes,2,Yes,2
-32,Individual Flight,Platform & Payload,Payload type(s),"general name and description of payload type(s) e.g., multispectral camera, temperature sensor",Yes,4,Yes,5,Yes,4
-33,Individual Flight,Platform & Payload,Companion computer make and model,"onboard companian computer make, model, software name and version (e.g., Raspberry Pi 4)",No,1,Yes,2,Yes,2
-34,Individual Flight,Platform & Payload,Sensor location on drone,"description of placement location and angle of any sensors, cameras, or other payload onto drone",No,1,Yes,4,Yes,4
-35,Individual Flight,Platform & Payload,Sensor mount and orientation,"description of sensor mounting method, including any shielding or insulation, and it's orientation relative to the drone once mounted",No,1,Yes,4,Yes,4
-36,Individual Flight,Platform & Payload,Sensor make and model,"name of sensor, manufacturer and specific model number",Yes,3,Yes,4,Yes,5
-37,Individual Flight,Platform & Payload,Sensor firmware and version,name and version number of sensor firmware,No,1,Yes,4,Yes,4
+1,Project,n/a,Investigator names,name of primary investigator,yes,Yes,2,Yes,2,No,1
+2,Project,n/a,Sponsering organization,"name and description of organization sponsering the flight(s) (e.g. granting agency name, grant number)",,Yes,2,Yes,2,No,1
+3,Project,n/a,Project name,name of research project,yes,Yes,3,Yes,2,No,1
+4,Project,n/a,Dates,date range of the overall research project (not individual flights),yes,Yes,3,Yes,3,Yes,4
+5,Project,n/a,Research question(s),description of research question and project goals,,Yes,3,Yes,3,Yes,4
+6,Project,n/a,Feature of interest,"description of environmental or atmospheric features being observed to answer the research question (e.g., agricultural land, clouds)",,Yes,4,Yes,4,Yes,3
+7,Project,n/a,Use and access restrictions,"description of who owns the data collected, and under what terms it can be used; description of any restrictions and legal prerequisites for accessing the data (e.g. privacy or IP restrictions) ",yes,No,1,Yes,4,Yes,4
+8,Individual Flight,Flight Checks & Calibrations,Drone operator identification,name / license number of the person operating the drone,,No,1,Yes,2,Yes,2
+9,Individual Flight,Flight Checks & Calibrations,Flight regulatory information,description of relevant flight regulatory information (e.g. flight path restrictions),,No,1,Yes,2,Yes,2
+10,Individual Flight,Flight Checks & Calibrations,Flight safety procedures,record of pre-flight safety check done before a flight  ,,No,1,No,1,No,1
+11,Individual Flight,Flight Checks & Calibrations,Flight date and time,date and time of day of drone flight,yes,Yes,4,Yes,4,Yes,5
+12,Individual Flight,Flight Checks & Calibrations,Weather,"description of weather conditions at time of flight (e.g. wind speed, air temperature, cloud cover)",,No,1,Yes,3,Yes,4
+13,Individual Flight,Flight Checks & Calibrations,Sensor calibration procedure,description of sensor calibration procedure(s),,No,1,Yes,4,Yes,5
+14,Individual Flight,Flight Checks & Calibrations,Sensor calibration date,most recent date of sensor calibration,,No,1,Yes,4,Yes,4
+15,Individual Flight,Flight Checks & Calibrations,Ground truth sampling data,"description and date of collection for any data used as a ground truth or calibration point data for analysis (e.g. spectral calibration, biomass samples, wind speed from a grounded source)",,No,1,Yes,4,Yes,4
+16,Individual Flight,Flight Checks & Calibrations,Ground truth control points,"description of ground control points for data accuracy, including coordinates and geospatial coordinates reference system if relevant",,No,1,Yes,4,Yes,4
+17,Individual Flight,Mission Plan,Mission planning software,name of mission planning software and version number (e.g. ArduPilot Mission Planner v. 1.0) ,,No,1,No,1,Yes,3
+18,Individual Flight,Mission Plan,Planned flight path,a log or data file of the planned flight of a drone,,No,1,Yes,2,Yes,2
+19,Individual Flight,Mission Plan,Flight pattern type ,"description of flight pattern being flown (e.g. vertical column, horizontal grid, z-formation)",yes,Yes,3,Yes,3,Yes,3
+20,Individual Flight,Mission Plan,Set image overlap percentage,"the set percentage and/or type of overlap of images, both forward lap and side lap dimensions",,No,1,Yes,3,Yes,3
+21,Individual Flight,Mission Plan,Geographic extent,size of area covered,yes,Yes,4,Yes,3,Yes,3
+22,Individual Flight,Mission Plan,Geographic range,"the bounded geographic range of a flight (lat, long, alt)",yes,Yes,5,Yes,5,Yes,5
+23,Individual Flight,Mission Plan,Sensing target,name of the parameter(s) being sampled for given flight,yes,Yes,4,Yes,3,Yes,3
+24,Individual Flight,Mission Plan,Sensor trigger rate,"the rate at which sensors are triggered to capture data during a given flight, including if triggered by a time, GPS, or other controller command",,No,1,Yes,3,Yes,4
+25,Individual Flight,Platform & Payload,Drone identifier,drone registration number or tail number,,No,1,No,1,No,1
+26,Individual Flight,Platform & Payload,Drone type,"type of drone (e.g. fixed wing, quadcopter, hexcopter)",yes,Yes,2,Yes,4,Yes,4
+27,Individual Flight,Platform & Payload,Drone make and model,name of drone manufacturer and specific model name and number (e.g. DJI Phantom 4 Advanced),yes,Yes,2,Yes,3,Yes,4
+28,Individual Flight,Platform & Payload,Modifications to hardware,description of any changes or customizations made to drone hardware (e.g.. sensor mounts),,No,1,Yes,3,Yes,4
+29,Individual Flight,Platform & Payload,Autopilot make and model,"name of autopilot and/or other onboard CPU manufacturer, model name and version number",,No,1,No,1,Yes,2
+30,Individual Flight,Platform & Payload,Flight autopilot firmware and version,"name of autopilot manufacturer and version number (e.g., PX4, ArduPilot)",,No,1,Yes,2,Yes,2
+31,Individual Flight,Platform & Payload,Payload type(s),"general name and description of payload type(s) e.g., multispectral camera, temperature sensor",yes,Yes,4,Yes,5,Yes,4
+32,Individual Flight,Platform & Payload,Companion computer make and model,"onboard companian computer make, model, software name and version (e.g., Raspberry Pi 4)",,No,1,Yes,2,Yes,2
+33,Individual Flight,Platform & Payload,Sensor location on drone,"description of placement location and angle of any sensors, cameras, or other payload onto drone",,No,1,Yes,4,Yes,4
+34,Individual Flight,Platform & Payload,Sensor mount and orientation,"description of sensor mounting method, including any shielding or insulation, and it's orientation relative to the drone once mounted",,No,1,Yes,4,Yes,4
+36,Individual Flight,Platform & Payload,Sensor make and model,"name of sensor, manufacturer and specific model number",yes,Yes,3,Yes,4,Yes,5
+37,Individual Flight,Platform & Payload,Sensor firmware and version,name and version number of sensor firmware,,No,1,Yes,4,Yes,4
 38,Individual Flight,Platform & Payload,Sensor measurement capability,"description of measurement capability of sensor (e.g. accuracy, precision, frequency, response time, spectral bands)
-",Yes,2,Yes,4,Yes,4
-39,Individual Flight,Platform & Payload,Sensor sampling rate,the rate at which sensor captures data,No,1,Yes,4,Yes,4
-40,Dataset From Flight,Flight Log,Flight ID,unique identifier for a given flight or mission,Yes,2,No,1,No,1
-41,Dataset From Flight,Flight Log,"Flight path of drone (latitude, longitude, altitude)","the coordinates of the flight path the drone executed (a log of the x,y,z coordinates of the flight path of the drone)",Yes,4,Yes,4,Yes,4
-42,Dataset From Flight,Flight Log,GPS time stamp characteristics,in what units and with what characteristics and assumptions are date and timestamp captured in the flight log,Yes,4,Yes,4,Yes,4
-43,Dataset From Flight,Flight Log,Altitude characteristics,in what units and with what characteristics and assumptions is altitude captured in the flight log,No,1,Yes,4,Yes,4
-44,Dataset From Flight,Flight Log,Ground speed characteristics,in what units and with what characteristics and assumptions is ground speed captured in the flight log,No,1,Yes,3,Yes,3
-45,Dataset From Flight,Flight Log,Air speed characteristics,in what units and with what characteristics and assumptions is air speed captured in the flight log,No,1,Yes,3,Yes,3
-46,Dataset From Flight,Flight Log,Wind speed characteristics,in what units and with what characteristics and assumptions is  wind speed captured in the flight log,No,1,Yes,3,Yes,3
-47,Dataset From Flight,Flight Log,Pitch characteristics,in what units and with what characteristics and assumptions is pitch captured in the flight log,No,1,Yes,3,Yes,4
-48,Dataset From Flight,Flight Log,Yaw characteristics,in what units and with what characteristics and assumptions is yaw captured in the flight log,No,1,Yes,3,Yes,4
-49,Dataset From Flight,Flight Log,Roll characteristics,in what units and with what characteristics and assumptions is roll captured in the flight log,No,1,Yes,3,Yes,4
-50,Dataset From Flight,Observational Dataset,Data file format,"the file format of the data file (e.g., csv, txt, netcdf)",Yes,2,Yes,4,Yes,2
-51,Dataset From Flight,Observational Dataset,Observed property ,"description of all properties being recorded in the observational dataset, including units (e.g., temperature in degrees celcius)",Yes,4,Yes,4,Yes,5
-52,Dataset From Flight,Observational Dataset,Sensor identification,identification of the sensor(s) on drone which contribute data to this observational dataset,No,1,Yes,3,Yes,4
-53,Dataset From Flight,Observational Dataset,Sensor specifications,"description of sensitivity, precision, resolution, and/or sample rate of sensor associated with an observational dataset",No,1,Yes,3,Yes,3
-54,Dataset From Flight,Observational Dataset,Sensor data output type,"description of type of sensor data output (e.g., digital series data, image or other spectral or raster data, or physical samples)",Yes,5,Yes,4,Yes,4
-55,Dataset From Flight,Observational Dataset,Sensor sampling duration,the duration of time the sensor was sampling for this observational dataset,Yes,2,Yes,3,Yes,3
-56,Dataset From Flight,Observational Dataset,Attitude and orientation,"general description of attitude of sensor and orientation of drone (pitch, roll, and yaw) for duration of observational dataset collection (e.g., noting if there were any deviations from intended attitude or orientation that may affect dataset)",No,1,Yes,4,Yes,4
-57,Dataset From Flight,Observational Dataset,Observational dataset flight path coordinates,"the flight path coordinates (latitude, longitude, altitude) for the observational dataset",Yes,3,Yes,4,Yes,4
-58,Dataset From Flight,Observational Dataset,Geospatial bounding box,"the bounding box (x, y, z) of the region where data was collected",Yes,3,Yes,2,Yes,2
-59,Dataset From Flight,Observational Dataset,Coordinate reference system,"name of coordinate reference system used, including projection type as needed (e.g. WGS84)",Yes,3,Yes,5,Yes,5
-60,Dataset From Flight,Observational Dataset: Imagery Dataset,Imagery type(s),"type of image(s) in image dataset (e.g. RGB, Lidar, IR)",Yes,5,Yes,5,Yes,3
-61,Dataset From Flight,Observational Dataset: Imagery Dataset,Imagery resolution(s),"image resolution, might include multiple values or ranges if different images in set are at different specification",Yes,2,Yes,4,Yes,5
-62,Dataset From Flight,Observational Dataset: Imagery Dataset,Imagery data file format,"the file format of image files (e.g., TIFF, JPEG, SVG, ply, las, etc.)",No,1,Yes,4,Yes,4
-63,Dataset From Flight,Observational Dataset,Data processing status,"Binary yes/no of whether the data has been processed (e.g. cleaned, normalized, compressed, etc).",Yes,,Yes,,Yes,
-64,Dataset From Flight,Observational Dataset: If Processed,Data processor (person),name of person conducting data processing,No,1,No,1,Yes,2
-65,Dataset From Flight,Observational Dataset: If Processed,Data processing method,"description of any data processing applied (e.g. corrections, compositing, georeferencing), include citation for processing method",Yes,2,Yes,4,Yes,5
-66,Dataset From Flight,Observational Dataset: If Processed,Data processing software,name of data processing software and version,No,1,Yes,3,Yes,4
-67,Dataset From Flight,Observational Dataset: If Processed,Data processing date,date when sensor data processing was performed,Yes,2,Yes,3,Yes,3
-68,Dataset From Flight,Observational Dataset: If Processed,Data type of processed sensor data ,"description of any available postprocessing data formats (e.g., georeferenced, temperature corrected)",Yes,4,Yes,4,Yes,4
-69,Individual Data Point,Individual Datapoint,Datapoint ID,"Identification number for individual datapoint (e.g. atmospheric measurement, image)",No,1,Yes,2,Yes,3
-70,Individual Data Point,Individual Datapoint,Datapoint timestamp,date and timestamp of individual data point,No,1,Yes,4,Yes,5
-71,Individual Data Point,Individual Datapoint,"Datapoint coordinates (latitutde, longitude, altitude)","latitutde, longitude and altitude for individual data point",No,1,Yes,4,Yes,5
-72,Individual Data Point,Individual Datapoint,Datapoint drone orientation,"description of drone orientation (pitch, roll, and yaw) of drone associated with individual datapoint",No,1,Yes,3,Yes,4
-73,Individual Data Point,Individual Datapoint,Datapoint sensor attitude,attitude of sensor for individual datapoint,No,1,Yes,3,Yes,4
-74,Individual Data Point,Individual Datapoint: Raw Image,Image resolution,image resolution of individual image,No,1,Yes,4,Yes,4
+",yes,Yes,2,Yes,4,Yes,4
+39,Individual Flight,Platform & Payload,Sensor sampling rate,the rate at which sensor captures data,,No,1,Yes,4,Yes,4
+40,Dataset From Flight,Flight Log,Flight idenfitier,unique identifier for a given flight or mission,,Yes,2,No,1,No,1
+41,Dataset From Flight,Flight Log,"Flight path of drone (latitude, longitude, altitude)","the coordinates of the flight path the drone executed (a log of the x,y,z coordinates of the flight path of the drone)",yes,Yes,4,Yes,4,Yes,4
+42,Dataset From Flight,Flight Log,GPS time stamp characteristics,in what units and with what characteristics and assumptions are date and timestamp captured in the flight log,,Yes,4,Yes,4,Yes,4
+43,Dataset From Flight,Flight Log,Altitude characteristics,in what units and with what characteristics and assumptions is altitude captured in the flight log,,No,1,Yes,4,Yes,4
+44,Dataset From Flight,Flight Log,Ground speed characteristics,in what units and with what characteristics and assumptions is ground speed captured in the flight log,,No,1,Yes,3,Yes,3
+45,Dataset From Flight,Flight Log,Air speed characteristics,in what units and with what characteristics and assumptions is air speed captured in the flight log,,No,1,Yes,3,Yes,3
+46,Dataset From Flight,Flight Log,Wind speed characteristics,in what units and with what characteristics and assumptions is  wind speed captured in the flight log,,No,1,Yes,3,Yes,3
+47,Dataset From Flight,Flight Log,Pitch characteristics,in what units and with what characteristics and assumptions is pitch captured in the flight log,,No,1,Yes,3,Yes,4
+48,Dataset From Flight,Flight Log,Yaw characteristics,in what units and with what characteristics and assumptions is yaw captured in the flight log,,No,1,Yes,3,Yes,4
+49,Dataset From Flight,Flight Log,Roll characteristics,in what units and with what characteristics and assumptions is roll captured in the flight log,,No,1,Yes,3,Yes,4
+,Dataset From Flight,Observational Dataset,Dataset identifier,a unique identifier for the dataset resulting from an sUAS proejct (e.g. a DOI),Yes,,,,,,
+50,Dataset From Flight,Observational Dataset,Data file format,"the file format of the data file (e.g., csv, txt, netcdf)",yes,Yes,2,Yes,4,Yes,2
+51,Dataset From Flight,Observational Dataset,Observed property ,"description of all properties being recorded in the observational dataset, including units (e.g., temperature in degrees celcius)",yes,Yes,4,Yes,4,Yes,5
+52,Dataset From Flight,Observational Dataset,Sensor identification,identification of the sensor(s) on drone which contribute data to this observational dataset,,No,1,Yes,3,Yes,4
+53,Dataset From Flight,Observational Dataset,Sensor specifications,"description of sensitivity, precision, resolution, and/or sample rate of sensor associated with an observational dataset",,No,1,Yes,3,Yes,3
+54,Dataset From Flight,Observational Dataset,Sensor data output type,"description of type of sensor data output (e.g., digital series data, image or other spectral or raster data, or physical samples)",yes,Yes,5,Yes,4,Yes,4
+55,Dataset From Flight,Observational Dataset,Sensor sampling duration,the duration of time the sensor was sampling for this observational dataset,yes,Yes,2,Yes,3,Yes,3
+56,Dataset From Flight,Observational Dataset,Attitude and orientation,"general description of attitude of sensor and orientation of drone (pitch, roll, and yaw) for duration of observational dataset collection (e.g., noting if there were any deviations from intended attitude or orientation that may affect dataset)",,No,1,Yes,4,Yes,4
+57,Dataset From Flight,Observational Dataset,Observational dataset flight path coordinates,"the flight path coordinates (latitude, longitude, altitude) for the observational dataset",yes,Yes,3,Yes,4,Yes,4
+58,Dataset From Flight,Observational Dataset,Geospatial bounding box,"the bounding box (x, y, z) of the region where data was collected",yes,Yes,3,Yes,2,Yes,2
+59,Dataset From Flight,Observational Dataset,Coordinate reference system,"name of coordinate reference system used, including projection type as needed (e.g. WGS84)",yes,Yes,3,Yes,5,Yes,5
+60,Dataset From Flight,Observational Dataset: Imagery Dataset,Imagery type(s),"type of image(s) in image dataset (e.g. RGB, Lidar, IR)",yes,Yes,5,Yes,5,Yes,3
+61,Dataset From Flight,Observational Dataset: Imagery Dataset,Imagery resolution(s),"image resolution, might include multiple values or ranges if different images in set are at different specification",yes,Yes,2,Yes,4,Yes,5
+62,Dataset From Flight,Observational Dataset: Imagery Dataset,Imagery data file format,"the file format of image files (e.g., TIFF, JPEG, SVG, ply, las, etc.)",,No,1,Yes,4,Yes,4
+63,Dataset From Flight,Observational Dataset,Data processing status,"Binary yes/no of whether the data has been processed (e.g. cleaned, normalized, compressed, etc).",yes,Yes,,Yes,,Yes,
+64,Dataset From Flight,Observational Dataset: If Processed,Data processor (person),name of person conducting data processing,,No,1,No,1,Yes,2
+65,Dataset From Flight,Observational Dataset: If Processed,Data processing method,"description of any data processing applied (e.g. corrections, compositing, georeferencing), include citation for processing method",yes,Yes,2,Yes,4,Yes,5
+66,Dataset From Flight,Observational Dataset: If Processed,Data processing software,name of data processing software and version,,No,1,Yes,3,Yes,4
+67,Dataset From Flight,Observational Dataset: If Processed,Data processing date,date when sensor data processing was performed,yes,Yes,2,Yes,3,Yes,3
+68,Dataset From Flight,Observational Dataset: If Processed,Data type of processed sensor data ,"description of any available postprocessing data formats (e.g., georeferenced, temperature corrected)",yes,Yes,4,Yes,4,Yes,4
+69,Individual Data Point,Individual Datapoint,Datapoint identifier,"Identification number for individual datapoint (e.g. atmospheric measurement, image)",,No,1,Yes,2,Yes,3
+70,Individual Data Point,Individual Datapoint,Datapoint timestamp,date and timestamp of individual data point,,No,1,Yes,4,Yes,5
+71,Individual Data Point,Individual Datapoint,"Datapoint coordinates (latitutde, longitude, altitude)","latitutde, longitude and altitude for individual data point",,No,1,Yes,4,Yes,5
+72,Individual Data Point,Individual Datapoint,Datapoint drone orientation,"description of drone orientation (pitch, roll, and yaw) of drone associated with individual datapoint",,No,1,Yes,3,Yes,4
+73,Individual Data Point,Individual Datapoint,Datapoint sensor attitude,attitude of sensor for individual datapoint,,No,1,Yes,3,Yes,4
+74,Individual Data Point,Individual Datapoint: Raw Image,Image resolution,image resolution of individual image,,No,1,Yes,4,Yes,4
